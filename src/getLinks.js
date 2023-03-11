@@ -44,7 +44,7 @@ function getLinks(searchLink) {
 
       if (!urls.includes(replaceHref) && isUrl(replaceHref) && parsedUrl.host === url.parse(baseUrl).host) {
         urls.push(replaceHref);
-        run(replaceHref);
+        getLinks(replaceHref);
       }
     });
 
