@@ -5,4 +5,4 @@ down:
 	docker-compose down
 
 run:
-	docker-compose exec app node ${SRC}
+	docker-compose exec app node src/${SRC}
