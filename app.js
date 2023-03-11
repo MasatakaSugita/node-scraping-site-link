@@ -1,0 +1,1 @@
+console.log("test OK!",process.env.DOMAIN);
